@@ -24,12 +24,10 @@ variable "region" {
 variable "top_level_domains" {
   description = "Top level domains to create records and pods for"
   type        = list(string)
-  default     = ["test.kulturekali.com"]
 }
 
 variable "letsencrypt_email" {
   type    = string
-  default = "gitau.ag@gmail.com"
 }
 
 variable "min_nodes" {
