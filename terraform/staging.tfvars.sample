@@ -1,0 +1,12 @@
+digitalocean_token = "your_token_here"
+
+cluster_name = "web-server-test"
+cluster_version = "1.27.4-do.0"
+region = "fra1"
+letsencrypt_email = "youremail@gmail.com"
+top_level_domains = [
+  "your site url"
+]
+min_nodes=1
+max_nodes=2
+default_node_size="s-1vcpu-2gb"
